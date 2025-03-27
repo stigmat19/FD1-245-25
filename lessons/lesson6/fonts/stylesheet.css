@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('RobotoSemiCondensed-BoldItalic.eot');
+    src: url('RobotoSemiCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('RobotoSemiCondensed-BoldItalic.woff2') format('woff2'),
+        url('RobotoSemiCondensed-BoldItalic.woff') format('woff'),
+        url('RobotoSemiCondensed-BoldItalic.ttf') format('truetype'),
+        url('RobotoSemiCondensed-BoldItalic.svg#RobotoSemiCondensed-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+    background-color: #fff;
+}
+
