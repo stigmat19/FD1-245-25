@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .clearfix::after{
+            content: '';
+            display: block;
+            height: 10px;
+            background-color: black;
+            clear: both;
+        }
+
+        .wrap{
+            background-color: blueviolet;
+            position: relative;
+            margin-top: 100px;
+            /* overflow: hidden; */
+        }
+        .menu{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            float: left;
+        }
+        .banner{
+            width: 200px;
+            height: 200px;
+            background-color:blue;
+            float: right;
+        }
+        .content{
+            background-color: burlywood;
+        }
+        /* .clear{
+            height: 10px;
+            background-color: black;
+            clear: both;
+        } */
+        .block{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="wrap  ">
+        <div class="block"></div>
+        <div class="menu"></div>
+        <div class="banner"></div>
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iure ab hic iste. Cum quos numquam delectus ratione molestias rerum quibusdam quasi, reprehenderit dolorem eaque quisquam praesentium alias laborum. Vel.
+        </div>
+    </div>
+    
+    
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

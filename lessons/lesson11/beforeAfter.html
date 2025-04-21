@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+       div{
+        padding: 20px;
+        border: 5px solid red;
+        margin: 20px;
+       }
+
+        h4::before{
+            content: '------ ';
+        }
+        h4::after{
+            content: ' ------';
+        }
+        ul {
+            counter-reset: cars 21;
+        }
+
+        li{
+            counter-increment: cars -1;
+        }
+        li::before{
+            content: "Car "counter(cars) ":";;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li>Mers</li>
+        <li>Audi</li>
+        <li>Bmw</li>
+        <li>Zeekr</li>
+        <li>Lada</li>
+        <li>Mers</li>
+        <li>Audi</li>
+        <li>Bmw</li>
+        <li>Zeekr</li>
+        <li>Lada</li>
+        <li>Mers</li>
+        <li>Audi</li>
+        <li>Bmw</li>
+        <li>Zeekr</li>
+        <li>Lada</li>
+        <li>Mers</li>
+        <li>Audi</li>
+        <li>Bmw</li>
+        <li>Zeekr</li>
+        <li>Lada</li>
+    </ul>
+    
+</body>
+</html>
