@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 10000px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .wrap{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin: 50px;
+            position: relative;
+        }
+
+        .item{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+        }
+
+        .item:first-child{
+            background-color: blue;
+            left: 20px;
+            top: 20px;
+        }
+        .item:nth-child(2){
+            background-color: red;
+            /* position: fixed;
+            right: 15px;
+            bottom: 15px; */
+
+            /* position: absolute;
+            right: 15px;
+            bottom: 15px; */
+            left: 40px;
+            top: 40px;
+        }
+        .item:last-child{
+            background-color: green;
+            left: 60px;
+            top: 60px;
+        }
+        .item:hover{
+            z-index: 1;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+</body>
+
+</html>
