@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="icons/css/all.css">
+    <title>Document</title>
+
+    <style>
+        input {
+            display: none;
+
+        }
+
+        input:checked+label {
+            background-color: red;
+        }
+
+        label {
+            display: inline-block;
+            width: 50px;
+            height: 20px;
+            background-color: green;
+            border-radius: 50px;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        label::before {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background-color: white;
+            border-radius: 50%;
+            top: 2px;
+            left: 2px;
+            transition: 0.5s;
+        }
+
+        input:checked+label::before {
+            left: 32px;
+        }
+
+        i:hover {
+            color: red;
+            -webkit-border-radius: 22px;
+            -moz-border-radius: 22px;
+            border-radius: 22px;
+        }
+
+        .test {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            text-shadow: 2px 2px 3px gray;
+            margin: 50px;
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            -webkit-border-radius: 40px 40px 0px 40px;
+            -moz-border-radius: 40px 40px 0px 40px;
+            border-radius: 40px 40px 0px 40px;
+            color: #202c2d;
+            background: #6B7BCE;
+            background: -moz-linear-gradient(left, #6B7BCE 0%, #884DA4 53%, #99C56E 100%);
+            background: -webkit-linear-gradient(left, #6B7BCE 0%, #884DA4 53%, #99C56E 100%);
+            background: linear-gradient(to right, #6B7BCE 0%, #884DA4 53%, #99C56E 100%);
+            -webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+            box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+            text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="test">Hello</div>
+
+
+    <!-- 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OI_pSoy3xs4?si=xW3DRa1e6yJkn_zD"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <input type="checkbox" id="id">
+    <label for="id"></label>
+
+    <i class="fa-regular fa-thumbs-up"></i> -->
+
+
+    <!-- <hr>
+
+
+    <input type="number" max="10" min="-10" step="2">
+    <br>
+    <input type="color" name="test">
+
+    <input type="text" list="animalslist">
+
+    <datalist id=animalslist>
+        <option value="собака">
+        <option value="кошка">
+        <option value="попугай">
+    </datalist>
+
+
+    <script>
+        const date = document.querySelector('input[type=date]')
+    </script> -->
+</body>
+
+</html>
