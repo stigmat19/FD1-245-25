@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"header{\r\n    background-color: red;\r\n\r\n    ul{\r\n        background-color: blue;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,GAAG;CAKxB;;;AAND,AAGI,MAHE,CAGF,EAAE,CAAA;EACE,gBAAgB,EAAE,IAAI;CACzB"
+}
