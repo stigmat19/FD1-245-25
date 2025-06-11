@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text">
+
+    <script>
+        // string
+        var name1 = 'Zhenya';
+        var name2 = "Ivan";
+
+        // number
+        var age = 20;
+
+        // boolean
+        var isMan = true;//false
+
+        // console.log(5 + 10 + 20 + +'30');
+
+        var basket = 'tv';
+        basket += ' phone';
+        basket = basket + ' trtrt';
+
+        var isAccess = age < 18 ? false : true;
+
+
+        var speed = 50;
+        var gender = 'М';
+
+        if (speed < 5) {
+            if (gender == 'М')
+                console.log('пошёл');
+            else
+                console.log('пошла');
+        }
+        else {
+            if (gender == 'М')
+                console.log('побежал');
+            else
+                console.log('побежала');
+        }
+
+        speed < 5
+            ? gender == 'М'
+                ? console.log('пошёл')
+                : console.log('пошла')
+            : gender == 'М'
+                ? console.log('побежал')
+                : console.log('побежала')
+
+
+        // if (age < 18) {
+        //    isAccess = false
+        // } else {
+        //   isAccess = true
+        // }
+
+
+
+    </script>
+</body>
+
+</html>

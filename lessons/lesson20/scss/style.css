@@ -4,8 +4,28 @@ header {
 header ul {
   background-color: green;
 }
+@media all and (max-width: 1350px) {
+  header ul {
+    background-color: #5b42f3;
+  }
+}
+@media all and (max-width: 1000px) {
+  header ul {
+    background-color: #ffea00;
+  }
+}
 header ul li {
   font-size: 26px;
+}
+@media all and (max-width: 1350px) {
+  header ul li {
+    background-color: green;
+  }
+}
+@media all and (max-width: 1000px) {
+  header ul li {
+    background-color: violet;
+  }
 }
 header ul li:first-child {
   background-color: blue;
@@ -96,4 +116,404 @@ header ul li a {
 }
 .btn1:active {
   transform: scale(0.9);
+}
+
+.color1 {
+  background-image: url(img/photo1.jpg);
+}
+
+.color2 {
+  background-image: url(img/photo2.jpg);
+}
+
+.color3 {
+  background-image: url(img/photo3.jpg);
+}
+
+.color4 {
+  background-image: url(img/photo4.jpg);
+}
+
+.color5 {
+  background-image: url(img/photo5.jpg);
+}
+
+.color6 {
+  background-image: url(img/photo6.jpg);
+}
+
+.color7 {
+  background-image: url(img/photo7.jpg);
+}
+
+.color8 {
+  background-image: url(img/photo8.jpg);
+}
+
+.color9 {
+  background-image: url(img/photo9.jpg);
+}
+
+.color10 {
+  background-image: url(img/photo10.jpg);
+}
+
+.color11 {
+  background-image: url(img/photo11.jpg);
+}
+
+.color12 {
+  background-image: url(img/photo12.jpg);
+}
+
+.color13 {
+  background-image: url(img/photo13.jpg);
+}
+
+.color14 {
+  background-image: url(img/photo14.jpg);
+}
+
+.color15 {
+  background-image: url(img/photo15.jpg);
+}
+
+.color16 {
+  background-image: url(img/photo16.jpg);
+}
+
+.color17 {
+  background-image: url(img/photo17.jpg);
+}
+
+.color18 {
+  background-image: url(img/photo18.jpg);
+}
+
+.color19 {
+  background-image: url(img/photo19.jpg);
+}
+
+.color20 {
+  background-image: url(img/photo20.jpg);
+}
+
+.color21 {
+  background-image: url(img/photo21.jpg);
+}
+
+.color22 {
+  background-image: url(img/photo22.jpg);
+}
+
+.color23 {
+  background-image: url(img/photo23.jpg);
+}
+
+.color24 {
+  background-image: url(img/photo24.jpg);
+}
+
+.color25 {
+  background-image: url(img/photo25.jpg);
+}
+
+.color26 {
+  background-image: url(img/photo26.jpg);
+}
+
+.color27 {
+  background-image: url(img/photo27.jpg);
+}
+
+.color28 {
+  background-image: url(img/photo28.jpg);
+}
+
+.color29 {
+  background-image: url(img/photo29.jpg);
+}
+
+.color30 {
+  background-image: url(img/photo30.jpg);
+}
+
+.color31 {
+  background-image: url(img/photo31.jpg);
+}
+
+.color32 {
+  background-image: url(img/photo32.jpg);
+}
+
+.color33 {
+  background-image: url(img/photo33.jpg);
+}
+
+.color34 {
+  background-image: url(img/photo34.jpg);
+}
+
+.color35 {
+  background-image: url(img/photo35.jpg);
+}
+
+.color36 {
+  background-image: url(img/photo36.jpg);
+}
+
+.color37 {
+  background-image: url(img/photo37.jpg);
+}
+
+.color38 {
+  background-image: url(img/photo38.jpg);
+}
+
+.color39 {
+  background-image: url(img/photo39.jpg);
+}
+
+.color40 {
+  background-image: url(img/photo40.jpg);
+}
+
+.color41 {
+  background-image: url(img/photo41.jpg);
+}
+
+.color42 {
+  background-image: url(img/photo42.jpg);
+}
+
+.color43 {
+  background-image: url(img/photo43.jpg);
+}
+
+.color44 {
+  background-image: url(img/photo44.jpg);
+}
+
+.color45 {
+  background-image: url(img/photo45.jpg);
+}
+
+.color46 {
+  background-image: url(img/photo46.jpg);
+}
+
+.color47 {
+  background-image: url(img/photo47.jpg);
+}
+
+.color48 {
+  background-image: url(img/photo48.jpg);
+}
+
+.color49 {
+  background-image: url(img/photo49.jpg);
+}
+
+.color50 {
+  background-image: url(img/photo50.jpg);
+}
+
+.color51 {
+  background-image: url(img/photo51.jpg);
+}
+
+.color52 {
+  background-image: url(img/photo52.jpg);
+}
+
+.color53 {
+  background-image: url(img/photo53.jpg);
+}
+
+.color54 {
+  background-image: url(img/photo54.jpg);
+}
+
+.color55 {
+  background-image: url(img/photo55.jpg);
+}
+
+.color56 {
+  background-image: url(img/photo56.jpg);
+}
+
+.color57 {
+  background-image: url(img/photo57.jpg);
+}
+
+.color58 {
+  background-image: url(img/photo58.jpg);
+}
+
+.color59 {
+  background-image: url(img/photo59.jpg);
+}
+
+.color60 {
+  background-image: url(img/photo60.jpg);
+}
+
+.color61 {
+  background-image: url(img/photo61.jpg);
+}
+
+.color62 {
+  background-image: url(img/photo62.jpg);
+}
+
+.color63 {
+  background-image: url(img/photo63.jpg);
+}
+
+.color64 {
+  background-image: url(img/photo64.jpg);
+}
+
+.color65 {
+  background-image: url(img/photo65.jpg);
+}
+
+.color66 {
+  background-image: url(img/photo66.jpg);
+}
+
+.color67 {
+  background-image: url(img/photo67.jpg);
+}
+
+.color68 {
+  background-image: url(img/photo68.jpg);
+}
+
+.color69 {
+  background-image: url(img/photo69.jpg);
+}
+
+.color70 {
+  background-image: url(img/photo70.jpg);
+}
+
+.color71 {
+  background-image: url(img/photo71.jpg);
+}
+
+.color72 {
+  background-image: url(img/photo72.jpg);
+}
+
+.color73 {
+  background-image: url(img/photo73.jpg);
+}
+
+.color74 {
+  background-image: url(img/photo74.jpg);
+}
+
+.color75 {
+  background-image: url(img/photo75.jpg);
+}
+
+.color76 {
+  background-image: url(img/photo76.jpg);
+}
+
+.color77 {
+  background-image: url(img/photo77.jpg);
+}
+
+.color78 {
+  background-image: url(img/photo78.jpg);
+}
+
+.color79 {
+  background-image: url(img/photo79.jpg);
+}
+
+.color80 {
+  background-image: url(img/photo80.jpg);
+}
+
+.color81 {
+  background-image: url(img/photo81.jpg);
+}
+
+.color82 {
+  background-image: url(img/photo82.jpg);
+}
+
+.color83 {
+  background-image: url(img/photo83.jpg);
+}
+
+.color84 {
+  background-image: url(img/photo84.jpg);
+}
+
+.color85 {
+  background-image: url(img/photo85.jpg);
+}
+
+.color86 {
+  background-image: url(img/photo86.jpg);
+}
+
+.color87 {
+  background-image: url(img/photo87.jpg);
+}
+
+.color88 {
+  background-image: url(img/photo88.jpg);
+}
+
+.color89 {
+  background-image: url(img/photo89.jpg);
+}
+
+.color90 {
+  background-image: url(img/photo90.jpg);
+}
+
+.color91 {
+  background-image: url(img/photo91.jpg);
+}
+
+.color92 {
+  background-image: url(img/photo92.jpg);
+}
+
+.color93 {
+  background-image: url(img/photo93.jpg);
+}
+
+.color94 {
+  background-image: url(img/photo94.jpg);
+}
+
+.color95 {
+  background-image: url(img/photo95.jpg);
+}
+
+.color96 {
+  background-image: url(img/photo96.jpg);
+}
+
+.color97 {
+  background-image: url(img/photo97.jpg);
+}
+
+.color98 {
+  background-image: url(img/photo98.jpg);
+}
+
+.color99 {
+  background-image: url(img/photo99.jpg);
+}
+
+.color100 {
+  background-image: url(img/photo100.jpg);
 }/*# sourceMappingURL=style.css.map */
