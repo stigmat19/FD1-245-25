@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var obj = new Object();
+        var obj1 = {
+            name: "Zhenya",
+            age: 37,
+            gender: "M"
+        }
+
+        var obj2 = {
+            name: "Ivan",
+            age: 24,
+            gender: "M"
+        }
+
+        var obj3 = {
+            name: "Olga",
+            age: 20,
+            gender: "W"
+        }
+
+        // var key1 = 'na'
+        // var key2 = 'me'
+
+        for(var key in obj1){
+            if(key === 'age'){
+                console.log("key:" + key + ", value: " + obj1[key])
+            
+            }
+        }
+
+        var users = [
+            {
+                name: "Zhenya",
+                age: 37,
+                gender: "M"
+            }
+            ,{
+                name: "Ivan",
+                age: 24,
+                gender: "M"
+            },
+            {
+                name: "Olga",
+                age: 20,
+                gender: "W"
+            }
+        ]
+    </script>
+
+</body>
+
+</html>
